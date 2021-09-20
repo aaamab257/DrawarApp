@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Electronics">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/home_icon"
+                    android:title="Home"
+                    />
+                <item
+                    android:id="@+id/nav_room"
+                    android:icon="@drawable/family_restroom"
+                    android:title="Rooms"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Clothes">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_homeClothes"
+                    android:icon="@drawable/home_icon"
+                    android:title="Home"
+                    />
+                <item
+                    android:id="@+id/nav_roomClothes"
+                    android:icon="@drawable/family_restroom"
+                    android:title="Rooms"
+                    />
+            </group>
+        </menu>
+    </item>
+
+</menu>
